@@ -1,3 +1,0 @@
-# Colab Intro Activity
-
-TODO.
