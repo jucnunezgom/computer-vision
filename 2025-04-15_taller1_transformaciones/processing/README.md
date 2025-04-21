@@ -29,6 +29,8 @@ The sketch uses the following Processing functions to achieve the transformation
 - `rotateY(angle)`: Rotates the coordinate system around the Y-axis. The rotation is driven by `frameCount` to create continuous movement.
 - `scale(factor)`: Resizes the coordinate system. The cyclical scaling is done by mapping the output of `sin(frameCount * speed)` to a range between 0.5 and 1.5.
 - `box(size)`: Draws a cube with the specified side length.
+- `pushMatrix()`: This function saves the current state of the coordinate system (including position, rotation, and scale). Think of it as taking a snapshot.
+- `popMatrix()`: This function restores the coordinate system to the state it was in when the most recent `pushMatrix()` was called. It's like going back to that snapshot.
 
 The transformations are applied sequentially within the `draw()` loop, which runs repeatedly, creating the animation.
 
