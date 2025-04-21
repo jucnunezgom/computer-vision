@@ -36,7 +36,7 @@ The transformations are applied sequentially within the `draw()` loop, which run
 
 ## Code
 
-![Code](https://i.imgur.com/sSFAD54.png)
+![Code](https://i.imgur.com/dVEqL0d.png)
 
 ## Result
 
